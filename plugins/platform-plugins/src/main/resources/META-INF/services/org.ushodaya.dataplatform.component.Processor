@@ -1,2 +1,2 @@
-org.ushodaya.dataplatform.WrangleProcessor
-org.ushodaya.dataplatform.MapProcessor
+org.ushodaya.dataplatform.processors.WrangleProcessor
+org.ushodaya.dataplatform.processors.MapProcessor

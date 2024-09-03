@@ -1,4 +1,4 @@
-package org.ushodaya.dataplatform;
+package org.ushodaya.dataplatform.sources;
 
 import org.ushodaya.dataplatform.component.Source;
 import org.ushodaya.dataplatform.data.api.data.format.StructuredRecord;

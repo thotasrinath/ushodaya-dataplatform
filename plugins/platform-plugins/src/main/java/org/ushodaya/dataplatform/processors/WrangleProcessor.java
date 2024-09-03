@@ -1,4 +1,4 @@
-package org.ushodaya.dataplatform;
+package org.ushodaya.dataplatform.processors;
 
 import org.ushodaya.dataplatform.component.Processor;
 import org.ushodaya.dataplatform.data.api.data.format.StructuredRecord;
