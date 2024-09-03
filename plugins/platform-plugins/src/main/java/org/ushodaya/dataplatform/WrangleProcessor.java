@@ -4,10 +4,10 @@ import org.ushodaya.dataplatform.component.Processor;
 import org.ushodaya.dataplatform.data.api.data.format.StructuredRecord;
 
 
-public class TailProcessor implements Processor {
+public class WrangleProcessor implements Processor {
     @Override
     public String getName() {
-        return "tail-processor";
+        return "wrangle-processor";
     }
 
     @Override

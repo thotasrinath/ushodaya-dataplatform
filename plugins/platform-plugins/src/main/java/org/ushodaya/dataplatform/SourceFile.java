@@ -7,7 +7,7 @@ import org.ushodaya.dataplatform.data.api.data.schema.Schema;
 public class SourceFile implements Source{
     @Override
     public String getName() {
-        return "";
+        return "get-file-content";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package org.ushodaya.dataplatform.manager;
+package org.ushodaya.dataplatform;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;

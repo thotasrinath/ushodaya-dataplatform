@@ -1,1 +1,2 @@
-org.ushodaya.dataplatform.TailProcessor
+org.ushodaya.dataplatform.WrangleProcessor
+org.ushodaya.dataplatform.MapProcessor
