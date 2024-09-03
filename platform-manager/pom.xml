@@ -30,7 +30,7 @@
         </dependency>
         <dependency>
             <groupId>org.ushodaya.dataplatform</groupId>
-            <artifactId>tail-file</artifactId>
+            <artifactId>platform-plugins</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

@@ -9,7 +9,7 @@
     <modules>
         <module>platform-api</module>
         <module>platform-manager</module>
-        <module>plugins/tail-file</module>
+        <module>plugins/platform-plugins</module>
     </modules>
     <version>1.0</version>
     <packaging>pom</packaging>
