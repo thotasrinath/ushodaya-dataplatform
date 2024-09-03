@@ -25,6 +25,11 @@
         </dependency>
         <dependency>
             <groupId>org.ushodaya.dataplatform</groupId>
+            <artifactId>platform-engine</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ushodaya.dataplatform</groupId>
             <artifactId>tail-file</artifactId>
             <version>1.0</version>
         </dependency>

@@ -1,7 +1,8 @@
 package org.ushodaya.dataplatform;
 
 import org.ushodaya.dataplatform.component.Processor;
-import org.ushodaya.dataplatform.data.StructuredRecord;
+import org.ushodaya.dataplatform.data.api.data.format.StructuredRecord;
+
 
 public class TailProcessor implements Processor {
     @Override
