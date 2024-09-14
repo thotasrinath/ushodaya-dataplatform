@@ -19,15 +19,13 @@ public class CacheService {
         return Objects.requireNonNull(map.put(key, value));
     }
 
-    public String listAllProcessors() {
-
-        List<String> list = new LinkedList<>();
+    public List<ProcessorRecord> listAllProcessors() {
+        List<ProcessorRecord> processorList = new LinkedList<>();
         ServiceLoader<Processor> loader = ServiceLoader.load(Processor.class);
-        loader.forEach(processor -> {
-            list.add(processor.getName());
-            System.out.println(processor.getName());
-        });
+        loader.forEach(k -> processorList.add(new ProcessorRecord(k.getName(), "")));
+        return processorList;
+    }
 
-        return list.toString();
+    public record ProcessorRecord(String name, String outputSchema){
     }
 }
